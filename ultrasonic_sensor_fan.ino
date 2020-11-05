@@ -1,3 +1,7 @@
+//In this Arduino project, I am going to control DC fan according to distance (proximity sensor). 
+//It is accomplished by the data communications between Arduino, the ultrasonic sensor Module and DC fan that is controlled by using PWM as a way to control voltage.
+//This project consists of two sections. Setting up the system, and connecting the Ultrasonic sensor to the arduino so they can communicate.
+
 int trig = 7; //ultrasonic trig pin
 int echo = 8; //ultrasonic echo pin
 byte fan = 6; //mini fan connected to pin 6 arduino uno
